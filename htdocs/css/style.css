@@ -83,7 +83,7 @@ body {
 	color: #eeeeee;
 	font-family: 'IM Fell English', Georgia, 'Times New Roman', serif;
 	font-size: 26px;
-	margin: 0 1em 1em 1em;
+	margin: 0 0 1em 0;
 }
 
 h1 {
@@ -112,6 +112,11 @@ address {
 
 header, section {
 	min-height: 600px;
+	padding: 0 1em;
+}
+
+section {
+	padding: 4.5em 1em 1em 1em ;
 }
 
 #back_to_top {
@@ -138,9 +143,16 @@ header, section {
 	margin-bottom: .25em;
 }
 
+#unterfeldmaeuse-2010-2011-eine-woche-voller-samstage {
+	background-color: #0066b8;
+	color: #8dc000;
+}
 
-
-
+#unterfeldmaeuse-2010-2011-eine-woche-voller-samstage h3 em {
+	color: #ee5000;
+	font-style: normal;
+	text-transform: uppercase;
+}
 
 
 
