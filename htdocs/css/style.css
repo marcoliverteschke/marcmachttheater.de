@@ -86,17 +86,41 @@ body {
 	margin: 0 0 1em 0;
 }
 
+a {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #bbbbbb;
+}
+
+a:hover {
+	color: #dddddd;
+}
+
 h1 {
+	background-color: #666666;
 	font-family: 'IM Fell English SC', Georgia, 'Times New Roman', serif;
 	font-size: 52px;
 	margin: 0 0 1em 0;
-	padding: 2em 0 0 0;
+	padding: 2em .1em 0 .2em;
+
+	-webkit-border-bottom-right-radius: .2em;
+	-webkit-border-bottom-left-radius: .2em;
+	-moz-border-radius-bottomright: .2em;
+	-moz-border-radius-bottomleft: .2em;
+	border-bottom-right-radius: .2em;
+	border-bottom-left-radius: .2em;
 }
 
 h3 {
 	font-family: 'IM Fell English SC', Georgia, 'Times New Roman', serif;
 	font-size: 39px;
 	margin: 0 0 .5em 0;
+}
+
+h1, h3 {
+	text-shadow: .1em .1em .2em #444444;
 }
 
 ul, li {
@@ -136,15 +160,35 @@ section {
 
 .navigation a {
 	color: #ffffff;
+	display: block;
 	text-decoration: none;
+}
+
+.navigation a:hover {
+	text-shadow: .1em .1em .2em #444444;	
 }
 
 #navigation li {
 	margin-bottom: .25em;
 }
 
+p.list_title {
+	margin: 1em 0 .2em 0;
+	text-shadow: .1em .1em .2em #444444;
+}
+
+/**** Eine Woche voller Samstage ****/
+a#link_unterfeldmaeuse-2010-2011-eine-woche-voller-samstage:hover {
+	background-color: #0066b8;
+	color: #8dc000;
+}
+
 #unterfeldmaeuse-2010-2011-eine-woche-voller-samstage {
 	background-color: #0066b8;
+	color: #ffffff;
+}
+
+#unterfeldmaeuse-2010-2011-eine-woche-voller-samstage h3 {
 	color: #8dc000;
 }
 
@@ -154,6 +198,29 @@ section {
 	text-transform: uppercase;
 }
 
+#unterfeldmaeuse-2010-2011-eine-woche-voller-samstage p.list_title {
+	color: #ee5000;
+}
+
+/**** Was ihr wollt ****/
+
+a#link_was-ihr-wollt-2010-2011:hover {
+	background-color: #7a0023;
+	color: #f7f490;
+}
+
+#was-ihr-wollt-2010-2011 {
+	background-color: #7a0023;
+	color: #ffffff;
+}
+
+#was-ihr-wollt-2010-2011 h3 {
+	color: #f7f490;
+}
+
+#was-ihr-wollt-2010-2011 p.list_title {
+	color: #f7f490;
+}
 
 
 /* 
