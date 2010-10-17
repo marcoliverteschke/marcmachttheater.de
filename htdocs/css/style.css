@@ -135,7 +135,7 @@ address {
 }
 
 header, section {
-	min-height: 600px;
+	min-height: 900px;
 	padding: 0 1em;
 }
 
@@ -149,6 +149,8 @@ section {
 	padding: .2em .5em;
 	position: fixed;
 	top: 0;
+
+	-webkit-box-shadow: .1em .1em .4em #444444;
 
 	-webkit-border-bottom-right-radius: .5em;
 	-webkit-border-bottom-left-radius: .5em;
@@ -164,7 +166,7 @@ section {
 	text-decoration: none;
 }
 
-.navigation a:hover {
+#navigation a:hover {
 	text-shadow: .1em .1em .2em #444444;	
 }
 
@@ -175,6 +177,37 @@ section {
 p.list_title {
 	margin: 1em 0 .2em 0;
 	text-shadow: .1em .1em .2em #444444;
+}
+
+/**** Schauspiel Basic ****/
+a#link_vhs-schauspiel-basic-2010:hover {
+	background-color: #ffa694;
+	color: #ce0000;
+}
+
+#vhs-schauspiel-basic-2010 {
+	background-color: #ffa694;
+	color: #000000;
+}
+
+#vhs-schauspiel-basic-2010 a {
+	color: #444444;
+}
+
+#vhs-schauspiel-basic-2010 a:hover {
+	color: #888888;
+}
+
+#vhs-schauspiel-basic-2010 a:visited {
+	color: #666666;
+}
+
+#vhs-schauspiel-basic-2010 h3 {
+	color: #ce0000;
+}
+
+#vhs-schauspiel-basic-2010 p.list_title {
+	color: #ce0000;
 }
 
 /**** Eine Woche voller Samstage ****/
