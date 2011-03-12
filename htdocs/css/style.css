@@ -166,17 +166,21 @@ section {
 	text-decoration: none;
 }
 
-#navigation a:hover {
+.navigation a:hover {
 	text-shadow: .1em .1em .2em #444444;	
 }
 
-#navigation li {
+.navigation li {
 	margin-bottom: .25em;
 }
 
 p.list_title {
 	margin: 1em 0 .2em 0;
 	text-shadow: .1em .1em .2em #444444;
+}
+
+header .list_title {
+	color: #aaaaaa;
 }
 
 /**** Schauspiel Basic ****/

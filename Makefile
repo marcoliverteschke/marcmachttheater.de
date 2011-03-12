@@ -2,4 +2,5 @@ install:
 	rsync -aP --delete htdocs/* marcmachttheater.de@marcmachttheater.de:htdocs/
 
 test:
-	rsync -aP --delete htdocs/* /Applications/MAMP/htdocs/marcmachttheater.de/
+	rm -Rf /Applications/MAMP/htdocs
+	rsync -aP --delete htdocs /Applications/MAMP/
