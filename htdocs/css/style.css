@@ -184,33 +184,33 @@ header .list_title {
 }
 
 /**** Schauspiel Basic ****/
-a#link_vhs-schauspiel-basic-2010:hover {
+a.link_vhs-schauspiel-basic:hover {
 	background-color: #ffa694;
 	color: #ce0000;
 }
 
-#vhs-schauspiel-basic-2010 {
+.vhs-schauspiel-basic {
 	background-color: #ffa694;
 	color: #000000;
 }
 
-#vhs-schauspiel-basic-2010 a {
+.vhs-schauspiel-basic a {
 	color: #444444;
 }
 
-#vhs-schauspiel-basic-2010 a:hover {
+.vhs-schauspiel-basic a:hover {
 	color: #888888;
 }
 
-#vhs-schauspiel-basic-2010 a:visited {
+.vhs-schauspiel-basic a:visited {
 	color: #666666;
 }
 
-#vhs-schauspiel-basic-2010 h3 {
+.vhs-schauspiel-basic h3 {
 	color: #ce0000;
 }
 
-#vhs-schauspiel-basic-2010 p.list_title {
+.vhs-schauspiel-basic p.list_title {
 	color: #ce0000;
 }
 
@@ -257,6 +257,12 @@ a#link_was-ihr-wollt-2010-2011:hover {
 
 #was-ihr-wollt-2010-2011 p.list_title {
 	color: #f7f490;
+}
+
+
+/**** Downloads ****/
+.downloads header, #downloads {
+	min-height: 100%;
 }
 
 
