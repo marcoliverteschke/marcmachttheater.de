@@ -1,4 +1,7 @@
-/* @override http://localhost:8888/marcmachttheater.de/css/style.css?v=1 */
+/* @override 
+	http://localhost:8888/marcmachttheater.de/css/style.css?v=1
+	http://marcmachttheater.de/css/style.css?v=1
+*/
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
@@ -257,6 +260,30 @@ a#link_was-ihr-wollt-2010-2011:hover {
 
 #was-ihr-wollt-2010-2011 p.list_title {
 	color: #f7f490;
+}
+
+
+/**** Ritter Rost ****/
+
+a#link_minestrone-2011-2012-ritter-rost:hover {
+	background-color: #ffffff;
+	color: #73a2b8;
+	text-shadow: .1em .1em .2em #cccccc;
+}
+
+#minestrone-2011-2012-ritter-rost {
+	background-color: #fff;
+	color: #324342;
+}
+
+#minestrone-2011-2012-ritter-rost h3 {
+	color: #73a2b8;
+	text-shadow: .1em .1em .2em #cccccc;
+}
+
+#minestrone-2011-2012-ritter-rost p.list_title {
+	color: #cf6e4c;
+	text-shadow: .1em .1em .2em #cccccc;
 }
 
 
