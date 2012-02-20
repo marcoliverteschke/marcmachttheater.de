@@ -291,6 +291,35 @@ a#link_minestrone-2011-2012-ritter-rost:hover {
 }
 
 
+/**** Hamlet ****/
+
+a#link_hamlet-2012:hover {
+	background-color: #000000;
+	color: #ffffff;
+	text-shadow: .1em .1em .2em #cccccc;
+}
+
+#hamlet-2012 {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#hamlet-2012 a:link, #hamlet-2012 a:visited {
+	color: #444444;
+}
+
+#hamlet-2012 h3 {
+	color: #000000;
+	text-shadow: .1em .1em .2em #cccccc;
+}
+
+#hamlet-2012 p.list_title {
+	color: #000000;
+	text-shadow: .1em .1em .2em #cccccc;
+}
+
+
+
 /**** Downloads ****/
 .downloads header, #downloads {
 	min-height: 100%;
