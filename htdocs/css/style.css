@@ -177,6 +177,12 @@ section {
 	margin-bottom: .25em;
 }
 
+section.archive {
+	font-size: .7em;
+	padding: 0;
+	padding-top: 1em;
+}
+
 p.list_title {
 	margin: 1em 0 .2em 0;
 	text-shadow: .1em .1em .2em #444444;
