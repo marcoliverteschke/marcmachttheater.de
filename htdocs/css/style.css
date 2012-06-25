@@ -81,12 +81,18 @@ button {  width: auto; overflow: visible; }
     Author: Marc-Oliver Teschke
  */
 
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 body {
-	background-color: #444444;
+	background-attachment: fixed;
+	background-image: url('/img/background-body.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #eeeeee;
 	font-family: 'IM Fell English', Georgia, 'Times New Roman', serif;
 	font-size: 26px;
-	margin: 0 0 1em 0;
+	margin: 0;
 }
 
 a {
@@ -138,8 +144,17 @@ address {
 }
 
 header, section {
+	background-color: #444444;
 	min-height: 1200px;
 	padding: 0 1em;
+}
+
+.rgba header, .rgba section {
+	background-color: rgba(64, 64, 64, .8);
+}
+
+header section, .rgba header section {
+	background: none;
 }
 
 section {
@@ -199,8 +214,12 @@ a.link_vhs-schauspiel-basic:hover {
 }
 
 .vhs-schauspiel-basic {
-	background-color: #ffa694;
+	background-color: rgb(255, 166, 148);
 	color: #000000;
+}
+
+.rgba .vhs-schauspiel-basic {
+	background-color: rgba(255, 166, 148, .8);
 }
 
 .vhs-schauspiel-basic a {
@@ -234,6 +253,10 @@ a#link_unterfeldmaeuse-2010-2011-eine-woche-voller-samstage:hover {
 	color: #ffffff;
 }
 
+.rgba #unterfeldmaeuse-2010-2011-eine-woche-voller-samstage {
+	background-color: rgba(0, 102, 184, .8);
+}
+
 #unterfeldmaeuse-2010-2011-eine-woche-voller-samstage h3 {
 	color: #8dc000;
 }
@@ -260,6 +283,10 @@ a#link_was-ihr-wollt-2010-2011:hover {
 	color: #ffffff;
 }
 
+.rgba #was-ihr-wollt-2010-2011 {
+	background-color: rgba(122, 0, 35, .8);
+}
+
 #was-ihr-wollt-2010-2011 h3 {
 	color: #f7f490;
 }
@@ -280,6 +307,10 @@ a#link_minestrone-2011-2012-ritter-rost:hover {
 #minestrone-2011-2012-ritter-rost {
 	background-color: #fff;
 	color: #324342;
+}
+
+.rgba #minestrone-2011-2012-ritter-rost {
+	background-color: rgba(255, 255, 255, .8);
 }
 
 #minestrone-2011-2012-ritter-rost a:link {
@@ -308,6 +339,10 @@ a#link_hamlet-2012:hover {
 #hamlet-2012 {
 	background-color: #ffffff;
 	color: #000000;
+}
+
+.rgba #hamlet-2012 {
+	background-color: rgba(255, 255, 255, .8);
 }
 
 #hamlet-2012 a:link, #hamlet-2012 a:visited {
