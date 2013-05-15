@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^marcmachttheater\.de$ [NC]
+RewriteRule ^(.*)$ http://marcmachttheater\.de/$1 [R=301,L]
