@@ -1,2 +1,10 @@
 @import "normalize.css";
 
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-family: 'Roboto Slab', Georgia, 'Times New Roman', serif;
+	font-size: 26px;
+	margin: 0 auto;
+	width: 75%;
+}
