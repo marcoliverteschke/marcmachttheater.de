@@ -24,6 +24,10 @@ ul, li {
 	float: none;
 }
 
+.strike {
+	text-decoration: line-through;
+}
+
 section {
 	border-bottom: 1em solid #fafafa;
 	padding: 1em 0;

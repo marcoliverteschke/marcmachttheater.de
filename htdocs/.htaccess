@@ -2,6 +2,8 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} !^marcmachttheater\.de$ [NC]
 RewriteRule ^(.*)$ http://marcmachttheater\.de/$1 [R=301,L]
 
+Header set X-UA-Compatible "IE=edge,chrome=1"
+
 # 480 weeks
 <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
 Header set Cache-Control "max-age=290304000, public"
