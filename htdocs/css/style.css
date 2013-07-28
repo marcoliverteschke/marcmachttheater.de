@@ -24,7 +24,7 @@ ul, li {
 	float: none;
 }
 
-.strike {
+.done {
 	text-decoration: line-through;
 }
 
@@ -46,6 +46,10 @@ section:last-of-type {
 .list_title, ul {
 	margin-bottom: 1em;
 	margin-top: 0;
+}
+
+#current ul {
+	width: 100%;
 }
 
 .gallery {
