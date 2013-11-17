@@ -37,10 +37,9 @@ section:last-of-type {
 	border-bottom-width: 0;
 }
 
-.list_title, ul {
-	float: left;
-	vertical-align: top;
-	width: 50%;
+.list_title {
+	font-weight: bold;
+	margin-top: 1em;
 }
 
 .list_title, ul {
@@ -50,6 +49,10 @@ section:last-of-type {
 
 #current ul {
 	width: 100%;
+}
+
+#past {
+	font-size: .75em;
 }
 
 .gallery {
@@ -100,11 +103,6 @@ and (max-width : 480px) {
 	.list_title, ul {
 		float: none;
 		width: 100%;
-	}
-
-	.list_title {
-		font-weight: bold;
-		margin-top: 1em;
 	}
 
 	.gallery li {
