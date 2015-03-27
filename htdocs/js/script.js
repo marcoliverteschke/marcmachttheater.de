@@ -1,6 +1,18 @@
 $(document).ready(function(){
 	preload_images();
 	$('.swipebox').swipebox();
+	
+	$('a').click(function(){
+		
+		if(typeof ga == "function" && typeof $(this).attr('href') == "string") {
+			
+			if($(this).attr('href').search(/#/) === 0) {
+				ga('send', 'event', 'link', 'click', {'page': '/' + $(this).attr('href').substr(1)});
+			}
+		}
+		
+	});
+	
 });
 
 
